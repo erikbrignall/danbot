@@ -20,10 +20,10 @@ wisdom_list = load_wisdom('wisdom.txt')
 # Streamlit app layout
 st.sidebar.image("arinet.png")
 st.subheader("SMT/ARI Neural network integration")
-st.sidebar.write('Using the latest in AI technology we have combined  \
-         the wisdom of senior leadership with cutting edge neural networks. Through extensive training \
-         ARINet will offer strategic guidance for all your startegic Product and Data questions.')
-st.write("Please outline the strategic guidance you require:")
+st.sidebar.write('Using the latest in AI technology we have fused  \
+         the wisdom of the SMT fused with cutting edge neural networks. Through extensive model training \
+         ARINet will offer strategic guidance for all your strategic Product and Data questions.')
+st.write("Please detail the strategic guidance you require and click submit:")
 
 # User input
 user_input = st.text_input("You:", "")
@@ -34,12 +34,12 @@ user_input = st.text_input("You:", "")
 if st.button("Submit"):
 #if user_input:    
     if user_input:
-        with st.spinner(text="calculating...."):
+        with st.spinner(text="a symphony of neurons firing...."):
             time.sleep(4)    
         wisdom_quote = get_random_wisdom(wisdom_list)
         st.header("ARINet-DanBot:")
         st.subheader(f"{wisdom_quote}")
-        time.sleep(6)
+        time.sleep(10)
         st.subheader('but wait....')
         time.sleep(4)
         st.subheader("there's more....")
