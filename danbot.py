@@ -24,7 +24,7 @@ st.image("danpilot.png")
 st.sidebar.write("Remember - there's no Gain without Payne. \
          Harnessing the power of neural networks and mind downloading,  \
          AI is paving the way for the future. ")
-st.sidebar.image("arinet.png", width=100)
+#st.sidebar.image("arinet.png", width=100)
 st.write("Ask me anything:")
 
 # User input
