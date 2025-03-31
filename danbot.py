@@ -18,8 +18,9 @@ def get_random_wisdom(wisdom_list):
 wisdom_list = load_wisdom('wisdom.txt')
 
 # Streamlit app layout
-st.sidebar.image("arinet.png")
+st.sidebar.image("arinet.png", width=180)
 st.subheader("DanPilot")
+st.image("danpilot.png")
 st.sidebar.write("Remember - there's no Gain without Payne. \
          Harnessing the power of neural networks and mind downloading,  \
          AI is paving the way for the future. ")
