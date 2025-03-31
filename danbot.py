@@ -18,7 +18,7 @@ def get_random_wisdom(wisdom_list):
 wisdom_list = load_wisdom('wisdom.txt')
 
 # Streamlit app layout
-st.sidebar.image("danbrain.png", width = 200)
+#st.sidebar.image("danbrain.png", width = 200)
 #st.subheader("DanPilot")
 st.image("danpilot.png")
 st.sidebar.write("Remember - there's no Gain without Payne. \
@@ -28,9 +28,22 @@ st.sidebar.write("Remember - there's no Gain without Payne. \
 
 # Set the text you want to display
 text = "> initialising system...."
+text2 = "> connecting to payne brain...."
+text3 = "> neural transferance connection in place...."
+text4 = "> updating training data...."
+text5 = "> reinforcing wisdom...."
 
 # Use HTML to style the text
-st.markdown(f"<p style='font-family:Courier New;'>{text}</p>", unsafe_allow_html=True)
+ 
+st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text}</p>", unsafe_allow_html=True)
+time.sleep(1)
+st.sidebar.markdown("<p style='font-family:Courier New;'>{text2}</p>", unsafe_allow_html=True)
+time.sleep(1)
+st.sidebar.markdown("<p style='font-family:Courier New;'>{text3}</p>", unsafe_allow_html=True)
+time.sleep(1)
+st.sidebar.markdown("<p style='font-family:Courier New;'>{text4}</p>", unsafe_allow_html=True)
+time.sleep(1)
+st.sidebar.markdown("<p style='font-family:Courier New;'>{text5}</p>", unsafe_allow_html=True)
 
 st.write("Ask me anything:")
 
