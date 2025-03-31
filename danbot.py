@@ -28,10 +28,10 @@ st.sidebar.write("Remember - there's no Gain without Payne. \
 
 # Set the text you want to display
 text = "> initialising system...."
-text2 = "> connecting to payne brain...."
+text2 = "> acquiring neurolink...."
 text3 = "> neural transferance connection in place...."
 text4 = "> updating training data...."
-text5 = "> reinforcing wisdom...."
+text5 = "> reinforcing neural cortex algorithm...."
 
 # Use HTML to style the text
  
