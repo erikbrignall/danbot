@@ -37,13 +37,13 @@ text5 = "> reinforcing wisdom...."
  
 st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text}</p>", unsafe_allow_html=True)
 time.sleep(1)
-st.sidebar.markdown("<p style='font-family:Courier New;'>{text2}</p>", unsafe_allow_html=True)
+st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text2}</p>", unsafe_allow_html=True)
 time.sleep(1)
-st.sidebar.markdown("<p style='font-family:Courier New;'>{text3}</p>", unsafe_allow_html=True)
+st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text3}</p>", unsafe_allow_html=True)
 time.sleep(1)
-st.sidebar.markdown("<p style='font-family:Courier New;'>{text4}</p>", unsafe_allow_html=True)
+st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text4}</p>", unsafe_allow_html=True)
 time.sleep(1)
-st.sidebar.markdown("<p style='font-family:Courier New;'>{text5}</p>", unsafe_allow_html=True)
+st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text5}</p>", unsafe_allow_html=True)
 
 st.write("Ask me anything:")
 
