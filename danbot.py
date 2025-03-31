@@ -46,6 +46,8 @@ time.sleep(1)
 st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text4}</p>", unsafe_allow_html=True)
 time.sleep(2)
 st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text5}</p>", unsafe_allow_html=True)
+time.sleep(1)
+st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text6}</p>", unsafe_allow_html=True)
 
 st.write("Ask me anything:")
 
