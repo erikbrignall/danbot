@@ -18,7 +18,7 @@ def get_random_wisdom(wisdom_list):
 wisdom_list = load_wisdom('wisdom.txt')
 
 # Streamlit app layout
-st.sidebar.image("danbrain.png")
+st.sidebar.image("danbrain.png", width = 200)
 #st.subheader("DanPilot")
 st.image("danpilot.png")
 st.sidebar.write("Remember - there's no Gain without Payne. \
