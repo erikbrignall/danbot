@@ -25,6 +25,13 @@ st.sidebar.write("Remember - there's no Gain without Payne. \
          Harnessing the power of neural networks and mind downloading,  \
          AI is paving the way for the future. ")
 #st.sidebar.image("arinet.png", width=100)
+
+# Set the text you want to display
+text = "> initialising system...."
+
+# Use HTML to style the text
+st.markdown(f"<p style='font-family:Courier New;'>{text}</p>", unsafe_allow_html=True)
+
 st.write("Ask me anything:")
 
 # User input
