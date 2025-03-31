@@ -54,8 +54,8 @@ user_input = st.text_input("You:", "")
 
 # Display a random wisdom quote when user inputs text
 # Submit button
-if st.button("Submit"):
-#if user_input:    
+#if st.button("Submit"):
+if user_input:    
     if user_input:
         with st.spinner(text="a symphony of neurons firing...."):
             time.sleep(4)    
