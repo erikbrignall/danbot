@@ -48,7 +48,7 @@ time.sleep(2)
 st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text5}</p>", unsafe_allow_html=True)
 time.sleep(1)
 st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text6}</p>", unsafe_allow_html=True)
-
+st.divider()
 st.subheader("Ask me anything: (no sensitive data please)")
 
 # User input
