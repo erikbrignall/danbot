@@ -49,7 +49,7 @@ st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text5}</p>", unsafe_a
 time.sleep(1)
 st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text6}</p>", unsafe_allow_html=True)
 
-st.write("Ask me anything:")
+st.subheader("Ask me anything: (no sensitive data please)")
 
 # User input
 user_input = st.text_input("You:", "")
