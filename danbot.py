@@ -20,10 +20,9 @@ wisdom_list = load_wisdom('wisdom.txt')
 # Streamlit app layout
 st.sidebar.image("arinet.png")
 st.subheader("DanPilot")
-st.sidebar.write("Harnessing the power of neural networks and mind downloading,  \
-         AI is paving the way for the future. \
-         Remember - there's no Gain without Payne. \
-         Ask me anything.")
+st.sidebar.write("Remember - there's no Gain without Payne. \
+         Harnessing the power of neural networks and mind downloading,  \
+         AI is paving the way for the future. ")
 st.write("Ask me anything:")
 
 # User input
