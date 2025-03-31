@@ -60,7 +60,7 @@ if user_input:
         with st.spinner(text="a symphony of neurons firing...."):
             time.sleep(4)    
         wisdom_quote = get_random_wisdom(wisdom_list)
-        st.header("ARINet-DanBot:")
+        st.write("Response:")
         st.subheader(f"{wisdom_quote}")
         time.sleep(10)
         st.subheader('but wait....')
