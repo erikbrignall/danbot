@@ -29,6 +29,5 @@ st.sidebar.write("Remember - there's no Gain without Payne. \
 
 st.subheader('Daisy Daisy, give me your answer do..')
 st.subheader('We hope you enjoyed this April 1st fun. Do check back next year for more experiments on SMT')
-'''st.subheader("Ask me anything: (no sensitive data please)")
 
 
