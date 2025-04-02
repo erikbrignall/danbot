@@ -49,7 +49,9 @@ st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text5}</p>", unsafe_a
 time.sleep(1)
 st.sidebar.markdown(f"<p style='font-family:Courier New;'>{text6}</p>", unsafe_allow_html=True)
 st.divider()
-st.subheader("Ask me anything: (no sensitive data please)")
+st.subheader('Daisy Daisy, give me your answer do..')
+st.subheader('We hope you enjoyed this April 1st fun. Do check back next year for more experiments on SMT')
+'''st.subheader("Ask me anything: (no sensitive data please)")
 
 # User input
 user_input = st.text_input("You:", "")
@@ -60,6 +62,8 @@ user_input = st.text_input("You:", "")
 #if st.button("Submit"):
 if user_input:    
     if user_input:
+        st.subheader('Daisy Daisy, give me your answer do..')
+        st.subheader('We hope you enjoyed this April 1st fun. Do check back next year for more experiments on SMT')
         with st.spinner(text="a symphony of neurons firing...."):
             time.sleep(4)    
         wisdom_quote = get_random_wisdom(wisdom_list)
@@ -75,5 +79,7 @@ if user_input:
         st.write("We haven't really wired up Dan to a Neural Network (Yet). But we are developing exciting new \
                  ways of interacting with our data and insights including chat. \
                  Do Check out the data and analytics centre on sharepoint for more info.")
+                 
 st.divider()
 st.image("neurons2.gif")
+'''
